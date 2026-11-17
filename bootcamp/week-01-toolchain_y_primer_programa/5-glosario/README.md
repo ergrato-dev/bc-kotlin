@@ -30,4 +30,4 @@
 
 | Anterior | Actual | Siguiente |
 | -------- | ------ | --------- |
-| [← Webgrafía](../4-recursos/webgrafia/README.md) | **Glosario** | [Índice del bootcamp →](../../README.md) |
+| [← Webgrafía](../4-recursos/webgrafia/README.md) | **Glosario** | [Semana 02 — Variables, tipos y operadores →](../../week-02-variables_tipos_y_operadores/README.md) |

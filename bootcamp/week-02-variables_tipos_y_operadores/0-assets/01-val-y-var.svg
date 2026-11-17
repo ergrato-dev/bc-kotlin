@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 380" role="img" aria-label="Una val es una etiqueta fija sobre un valor y reasignarla da error. Una var se puede mover a otro valor del mismo tipo, pero no a uno de otro tipo">
+  <title>val y var: etiquetas sobre valores</title>
+  <defs><marker id="b" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#58a6ff"/></marker><marker id="g" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#3fb950"/></marker></defs>
+  <rect width="900" height="380" fill="#0d1117"/>
+  <text x="450" y="34" font-family="Inter, system-ui, -apple-system, 'Segoe UI', sans-serif" font-size="20" font-weight="700" text-anchor="middle" fill="#f0f6fc">val y var: etiquetas sobre valores</text>
+  <rect x="30" y="60" width="400" height="290" rx="8" fill="#161b22" stroke="#30363d" stroke-width="1"/>
+  <text x="50" y="90" font-family="Inter, system-ui, -apple-system, 'Segoe UI', sans-serif" font-size="16" font-weight="700" text-anchor="start" fill="#f0f6fc">val: se asigna una vez</text>
+  <text x="50" y="130" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="14" text-anchor="start" fill="#a98bff">val unitPrice = 1250</text>
+  <rect x="60" y="160" width="130" height="44" rx="8" fill="#0d1117" stroke="#7f52ff" stroke-width="2"/>
+  <text x="125" y="188" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="14" text-anchor="middle" fill="#f0f6fc">unitPrice</text>
+  <line x1="190" y1="182" x2="268" y2="182" stroke="#58a6ff" stroke-width="2" marker-end="url(#b)"/>
+  <rect x="270" y="160" width="120" height="44" rx="8" fill="#0d1117" stroke="#30363d" stroke-width="1"/>
+  <text x="330" y="188" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="15" text-anchor="middle" fill="#f0f6fc">1250</text>
+  <text x="50" y="250" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="14" text-anchor="start" fill="#f85149">unitPrice = 1300</text>
+  <text x="50" y="276" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="13" text-anchor="start" fill="#f85149">error: 'val' cannot be reassigned.</text>
+  <text x="50" y="320" font-family="Inter, system-ui, -apple-system, 'Segoe UI', sans-serif" font-size="14" text-anchor="start" fill="#8b949e">La etiqueta no se mueve nunca.</text>
+  <rect x="470" y="60" width="400" height="290" rx="8" fill="#161b22" stroke="#30363d" stroke-width="1"/>
+  <text x="490" y="90" font-family="Inter, system-ui, -apple-system, 'Segoe UI', sans-serif" font-size="16" font-weight="700" text-anchor="start" fill="#f0f6fc">var: se puede reasignar</text>
+  <text x="490" y="130" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="14" text-anchor="start" fill="#a98bff">var stock = 10   y después   stock = 7</text>
+  <rect x="500" y="180" width="110" height="44" rx="8" fill="#0d1117" stroke="#7f52ff" stroke-width="2"/>
+  <text x="555" y="208" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="14" text-anchor="middle" fill="#f0f6fc">stock</text>
+  <rect x="720" y="150" width="110" height="40" rx="8" fill="#0d1117" stroke="#30363d" stroke-width="1" stroke-dasharray="6 4"/>
+  <text x="775" y="176" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="15" text-anchor="middle" fill="#8b949e">10</text>
+  <line x1="610" y1="196" x2="718" y2="172" stroke="#8b949e" stroke-width="2" stroke-dasharray="6 4"/>
+  <rect x="720" y="214" width="110" height="40" rx="8" fill="#0d1117" stroke="#30363d" stroke-width="1"/>
+  <text x="775" y="240" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="15" text-anchor="middle" fill="#f0f6fc">7</text>
+  <line x1="610" y1="206" x2="718" y2="232" stroke="#3fb950" stroke-width="2" marker-end="url(#g)"/>
+  <text x="490" y="286" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="14" text-anchor="start" fill="#f85149">stock = &quot;siete&quot;</text>
+  <text x="490" y="312" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="13" text-anchor="start" fill="#f85149">error: assignment type mismatch</text>
+  <text x="490" y="336" font-family="Inter, system-ui, -apple-system, 'Segoe UI', sans-serif" font-size="14" text-anchor="start" fill="#8b949e">Cambia el valor, nunca el tipo.</text>
+</svg>

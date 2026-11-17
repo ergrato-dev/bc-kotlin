@@ -15,7 +15,7 @@ La columna **Estado** dice la verdad sobre el repositorio: ✅ la semana está p
 | Semana | Tema | Estado |
 |:--:|---|:--:|
 | [01](week-01-toolchain_y_primer_programa/README.md) | [Toolchain y primer programa](week-01-toolchain_y_primer_programa/README.md) | ✅ |
-| 02 | Variables, tipos y operadores | ⬜ |
+| [02](week-02-variables_tipos_y_operadores/README.md) | [Variables, tipos y operadores](week-02-variables_tipos_y_operadores/README.md) | ✅ |
 | 03 | Control de flujo y funciones | ⬜ |
 | 04 | Null safety y errores | ⬜ |
 | 05 | Colecciones | ⬜ |
