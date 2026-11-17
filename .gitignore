@@ -21,3 +21,6 @@ build/
 # Secretos
 .env
 *.pem
+
+# Copias de trabajo del ejercicio 01 de la semana 01
+mi-copia/

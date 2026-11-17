@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 380" role="img" aria-label="Tu máquina edita los archivos con el editor; el contenedor bc-kotlin-dev ve esa misma carpeta en /workspace y guarda el caché de Gradle en un volumen que sobrevive al contenedor">
+  <title>Tu máquina y el contenedor de desarrollo</title>
+  <defs>
+    <marker id="b" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#58a6ff"/></marker>
+  </defs>
+  <rect width="900" height="380" fill="#0d1117"/>
+  <text x="450" y="34" text-anchor="middle" font-family="Inter, system-ui, -apple-system, 'Segoe UI', sans-serif" font-size="20" font-weight="700" fill="#f0f6fc">Tu máquina y el contenedor de desarrollo</text>
+
+  <rect x="30" y="60" width="330" height="290" rx="10" fill="#161b22" stroke="#30363d"/>
+  <text x="50" y="88" font-family="Inter, system-ui, -apple-system, 'Segoe UI', sans-serif" font-size="16" font-weight="700" fill="#f0f6fc">Tu máquina (host)</text>
+  <rect x="50" y="108" width="290" height="60" rx="8" fill="#0d1117" stroke="#30363d"/>
+  <text x="70" y="133" font-family="Inter, system-ui, -apple-system, 'Segoe UI', sans-serif" font-size="14" fill="#f0f6fc">Editor (IntelliJ, VS Code)</text>
+  <text x="70" y="154" font-family="Inter, system-ui, -apple-system, 'Segoe UI', sans-serif" font-size="13" fill="#8b949e">aquí escribes el código</text>
+  <rect x="50" y="190" width="290" height="70" rx="8" fill="#0d1117" stroke="#7f52ff" stroke-width="2"/>
+  <text x="70" y="216" font-family="Inter, system-ui, -apple-system, 'Segoe UI', sans-serif" font-size="14" fill="#a98bff">Carpeta del ejercicio</text>
+  <text x="70" y="240" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="13" fill="#f0f6fc">~/bc-kotlin/bootcamp/...</text>
+  <rect x="50" y="280" width="290" height="50" rx="8" fill="#0d1117" stroke="#30363d"/>
+  <text x="70" y="310" font-family="Inter, system-ui, -apple-system, 'Segoe UI', sans-serif" font-size="13" fill="#8b949e">Solo Docker y git instalados</text>
+
+  <rect x="540" y="60" width="330" height="290" rx="10" fill="#161b22" stroke="#58a6ff" stroke-width="2"/>
+  <text x="560" y="88" font-family="Inter, system-ui, -apple-system, 'Segoe UI', sans-serif" font-size="16" font-weight="700" fill="#f0f6fc">Contenedor bc-kotlin-dev</text>
+  <text x="560" y="110" font-family="Inter, system-ui, -apple-system, 'Segoe UI', sans-serif" font-size="13" fill="#8b949e">Ubuntu 24.04 · JDK 25 · kotlinc 2.4.21</text>
+  <rect x="560" y="190" width="290" height="70" rx="8" fill="#0d1117" stroke="#7f52ff" stroke-width="2"/>
+  <text x="580" y="216" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="14" fill="#a98bff">/workspace</text>
+  <text x="580" y="240" font-family="Inter, system-ui, -apple-system, 'Segoe UI', sans-serif" font-size="13" fill="#8b949e">la misma carpeta, vista desde dentro</text>
+  <rect x="560" y="280" width="290" height="50" rx="8" fill="#0d1117" stroke="#3fb950" stroke-width="2"/>
+  <text x="580" y="304" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="13" fill="#3fb950">/home/ubuntu/.gradle</text>
+  <text x="580" y="322" font-family="Inter, system-ui, -apple-system, 'Segoe UI', sans-serif" font-size="12" fill="#8b949e">volumen bc-kotlin-gradle: caché</text>
+  <text x="580" y="140" font-family="Inter, system-ui, -apple-system, 'Segoe UI', sans-serif" font-size="13" fill="#f0f6fc">Aquí compilas y pruebas:</text>
+  <text x="580" y="162" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="13" fill="#f0f6fc">./gradlew test</text>
+
+  <line x1="340" y1="225" x2="556" y2="225" stroke="#58a6ff" stroke-width="2" marker-end="url(#b)"/>
+  <line x1="560" y1="235" x2="344" y2="235" stroke="#58a6ff" stroke-width="2" marker-end="url(#b)"/>
+  <text x="450" y="212" text-anchor="middle" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="12" fill="#58a6ff">-v "$PWD":/workspace</text>
+  <text x="450" y="258" text-anchor="middle" font-family="Inter, system-ui, -apple-system, 'Segoe UI', sans-serif" font-size="12" fill="#8b949e">un cambio en un lado</text>
+  <text x="450" y="274" text-anchor="middle" font-family="Inter, system-ui, -apple-system, 'Segoe UI', sans-serif" font-size="12" fill="#8b949e">se ve en el otro al instante</text>
+</svg>
