@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 220" role="img" aria-label="Bootcamp Kotlin Zero to Advanced: 34 semanas, 476 horas">
+  <title>Bootcamp Kotlin Zero to Advanced</title>
+  <rect width="800" height="220" fill="#0d1117"/>
+  <rect x="24" y="24" width="752" height="172" rx="12" fill="#161b22" stroke="#30363d"/>
+  <!-- Logotipo geométrico: K formada por triángulos planos, sin degradados -->
+  <polygon points="64,56 172,56 118,110 172,164 64,164" fill="#7f52ff"/>
+  <polygon points="64,56 118,56 64,110" fill="#a98bff"/>
+  <polygon points="118,110 172,164 118,164" fill="#a98bff"/>
+  <text x="208" y="96" font-family="Inter, system-ui, -apple-system, 'Segoe UI', sans-serif" font-size="40" font-weight="700" fill="#f0f6fc">Bootcamp Kotlin</text>
+  <text x="208" y="132" font-family="Inter, system-ui, -apple-system, 'Segoe UI', sans-serif" font-size="22" fill="#a98bff">Zero to Advanced</text>
+  <text x="208" y="166" font-family="Inter, system-ui, -apple-system, 'Segoe UI', sans-serif" font-size="15" fill="#8b949e">34 semanas · 476 h · JVM · Coroutines · Ktor + PostgreSQL · Multiplatform</text>
+</svg>

@@ -1,0 +1,23 @@
+# Política anticopia: las soluciones nunca se suben.
+**/solution/
+
+# Gradle y Kotlin
+build/
+.gradle/
+.kotlin/
+!gradle/wrapper/gradle-wrapper.jar
+
+# Compilación manual (semana 01)
+*.jar
+!**/gradle/wrapper/gradle-wrapper.jar
+*.class
+
+# Editores y sistema
+.idea/
+*.iml
+.vscode/
+.DS_Store
+
+# Secretos
+.env
+*.pem
